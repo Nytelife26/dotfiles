@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/nytelife26/projects/proselint/proselint/checks/passive_voice'
+let g:netrw_dirhist_0='/home/nytelife26/projects/proselint/proselint/checks/lexical_illusions'
+let g:netrw_dirhist_9='/home/nytelife26/projects/petitio'
+let g:netrw_dirhist_8='/home/nytelife26/projects/kcs/utils/packages/eslint-config-ts'
+let g:netrw_dirhist_7='/home/nytelife26/projects/kcs/utils/packages/eslint-config-ts/src'
+let g:netrw_dirhist_6='/home/nytelife26/projects/kcs/utils/packages/eslint-config-ts'
+let g:netrw_dirhist_5='/home/nytelife26/projects/kcs/infra/.terraform/providers/registry.terraform.io/rincedd/netcup-scp/0.0.1/linux_amd64'
+let g:netrw_dirhist_4='/home/nytelife26/projects/kcs/infra/.terraform/providers/registry.terraform.io/rincedd/netcup-scp/0.0.1'
+let g:netrw_dirhist_3='/home/nytelife26/projects/kcs/infra/.terraform/providers/registry.terraform.io/rincedd/netcup-scp'
+let g:netrw_dirhist_2='/home/nytelife26/projects/kcs/infra/.terraform/providers/registry.terraform.io/rincedd'

@@ -1,0 +1,5 @@
+#!/bin/sh
+doas -u root systemctl start mopidy
+sleep 3
+ncmpcpp
+doas -u root systemctl stop mopidy

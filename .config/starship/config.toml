@@ -1,0 +1,43 @@
+add_newline = false
+format = "$username@\\[$hostname\\] $character$directory($git_branch$git_state )($git_status )"
+
+[character]
+error_symbol = "[»](bold red)"
+success_symbol = "[»](bold purple)"
+
+[directory]
+style = "bold blue"
+
+[git_branch]
+format = "[git:\\($branch\\)]($style)"
+style = "bold cyan"
+
+[git_state]
+am = "AM"
+am_or_rebase = "AM|REBASE"
+bisect = "BISECT"
+cherry_pick = "CHERRY-PICK"
+format = "[\\($state( $progress_current/$progress_total)\\)]($style)"
+merge = "MERGE"
+rebase = "REBASE"
+revert = "REVERT"
+style = "bold cyan"
+
+[git_status]
+deleted = "‎"
+format = "[($deleted$renamed$modified$staged$untracked±)]($style)"
+modified = "‎"
+renamed = "‎"
+staged = "‎"
+style = "bold yellow"
+untracked = "‎"
+
+[hostname]
+format = "[$hostname]($style)"
+ssh_only = false
+style = ""
+
+[username]
+format = "[$user]($style)"
+style_user = ""
+show_always = true

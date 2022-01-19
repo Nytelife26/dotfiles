@@ -1,0 +1,24 @@
+#!/usr/bin/env python
+from pyfiglet import Figlet
+import sys
+import time
+import os
+
+def main():
+	text = Figlet(font="slant", width=80).renderText(" ".join(sys.argv[1:]))
+	for line in text.split("\n"):
+		accumulator = ""
+		for char in line:
+			sys.stdout.write(char)
+			sys.stdout.flush()
+			time.sleep(0.05)
+		sys.stdout.write("\n")
+		sys.stdout.flush()
+
+if __name__ == "__main__":
+	try:
+		main()
+	except (KeyboardInterrupt, IOError, BrokenPipeError):
+		sys.stderr.write("Pipe terminated early - operation failed.")
+		sys.stderr.close()
+		sys.exit(1)

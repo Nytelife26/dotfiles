@@ -1,0 +1,34 @@
+filesize_metric = false
+path = ["/home/nytelife26/.cargo/bin", "/home/nytelife26/bin", "/home/nytelife26/.local/bin", "/usr/local/bin", "/home/nytelife26/.config/nscripts", "/home/nytelife26/.local/share/poetry/bin", "/home/nytelife26/bin", "/home/nytelife26/.local/bin", "/usr/local/bin", "/home/nytelife26/.config/nscripts", "/home/nytelife26/.local/share/poetry/bin", "/usr/local/sbin", "/usr/local/bin", "/usr/bin", "/usr/bin/site_perl", "/usr/bin/vendor_perl", "/usr/bin/core_perl"]
+prompt = "starship_prompt"
+skip_welcome_message = true
+startup = ["source ~/.config/nu/init.nu"]
+
+[env]
+AUR_PAGER = "ranger"
+BROWSER = "firefox"
+EDITOR = "nvim"
+READER = "zathura"
+FZF_DEFAULT_OPTS = "-m --reverse --height 10%"
+HOME = "/home/nytelife26"
+SSH_AUTH_SOCK = "/home/nytelife26/.ssh/ssh-agent.socket"
+STARSHIP_CONFIG = "/home/nytelife26/.config/starship/config.toml"
+TERMINAL = "kitty"
+NNN_FIFO = "/tmp/nnn.fifo"
+NNN_PLUG = "p:preview-tui"
+KITTY_LISTEN_ON = "unix:/tmp/kitty"
+SPLIT = "v"
+
+[line_editor]
+auto_add_history = true
+completion_match_method = "case-insensitive"
+completion_type = "fuzzy"
+history_duplicates = "ignoreconsecutive"
+tab_stop = "4"
+
+[textview]
+colored_output = true
+paging_mode = "QuitIfOneScreen"
+wrapping_mode = "NoWrapping"
+theme = "TwoDark"
+true_color = true
